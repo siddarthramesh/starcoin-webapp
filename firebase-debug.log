@@ -1,0 +1,36 @@
+[debug] [2017-07-23T05:38:46.481Z] ----------------------------------------------------------------------
+[debug] [2017-07-23T05:38:46.488Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Siddarth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-23T05:38:46.489Z] CLI Version:  3.9.1
+[debug] [2017-07-23T05:38:46.489Z] Platform:     win32
+[debug] [2017-07-23T05:38:46.489Z] Node Version: v6.11.0
+[debug] [2017-07-23T05:38:46.489Z] Time:         Sun Jul 23 2017 01:38:46 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-23T05:38:46.489Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-23T05:38:46.526Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-23T05:38:46.526Z] > authorizing via signed-in user
+[debug] [2017-07-23T05:38:46.529Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-07-23T05:38:46.530Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/CS10JofXNkwbEEhZR6RHsbubHHbo913J8b-3uYYg5wU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Jul 23 2017 01:38:46 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-23T05:38:46.692Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-23T05:38:46.700Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/dist-trade  
+ Sun Jul 23 2017 01:38:46 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-23T05:38:47.040Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-23T05:38:47.042Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/dist-trade/tokens  
+ Sun Jul 23 2017 01:38:47 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-23T05:38:48.185Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Siddarth\workspace\hackathons\disttrade'...
+[info] 
+[debug] [2017-07-23T05:38:48.194Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dist-trade  
+ Sun Jul 23 2017 01:38:48 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-23T05:38:48.431Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-23T05:38:48.431Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/103081312763/clients/_:getWebAppConfig  
+ Sun Jul 23 2017 01:38:48 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-23T05:38:48.719Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
